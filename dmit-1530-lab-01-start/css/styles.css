@@ -9,7 +9,104 @@
     body copy: 'Open Sans', sans-serif;
 */
 
+:root {
+    --night: #182222;
+    --dark-slate-gray: #405B5B;
+    --french-gray: #e2dfe7;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     min-width: 360px;
+    font-size: 1rem;
+}
+
+
+.header {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.header p{
+    margin-bottom: 2rem;
+}
+
+.main {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-container img{
+    width: 50%;
+    height: auto;
+    padding-right: 1rem;
+    margin-top: 4rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--night);
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--night);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol li {
+    margin-bottom: 1rem;
+}
+
+ol li h4 {
+    margin-bottom: 1rem;
+}
+
+
+.tour-button {
+    margin-top: 2rem;
+}
+.tour-button a {
+    font-size: 1.25rem;
+    font-family: 'Fjalla One', sans-serif;
+    border: 2px double var(--dark-slate-gray);
+    padding: 0.5rem 1rem;
+    color: var(--night);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--dark-slate-gray);
+    color: var(--french-gray);
+    padding: 2rem;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+}
+
+footer p {   
+    padding-top: 1rem;
 }
